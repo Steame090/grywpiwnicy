@@ -9,8 +9,8 @@ var dir = '/directory/';
 
 function updateContent(directory) {
 	var content = [
-		['css', 'js'],
-		['null', 'README.md', 'save/']
+		['save'],
+		['null', 'README.md']
 	];
 	
 	var destination = $('#content').html('');
