@@ -10,7 +10,7 @@ var dir = '/directory/';
 function updateContent(directory) {
 	var content = [
 		['css', 'js'],
-		['favicon.ico', 'photo.jpg', 'access.php', 'index.php', 'save.php', 'file.txt']
+		['null', 'README.md', 'save/']
 	];
 	
 	var destination = $('#content').html('');
